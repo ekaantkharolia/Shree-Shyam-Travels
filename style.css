@@ -1,0 +1,138 @@
+header{
+    margin: 0%;
+    padding: 0%;
+    width: 1080px;
+    height: 370px;
+    background-color: #FFBF00;
+}
+.mount{
+    height: 530px;
+    width: 1080px; 
+    position: absolute;  
+    top: 100px;
+}
+.logo{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    position: relative;
+    top: 250px;
+    left: 50px;
+}
+.title{
+    position: absolute;
+    font-family: Oleo Script;
+    font-size: 80px ;
+    right: 90px;
+    top: 280px;
+    color: #002238;
+}
+.div2{ 
+    height: 1180px;
+    background-image: url(mor.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+.contact{
+    display: grid;
+    height: 184px;
+    width: 870px;
+    background-color:#2585d3;
+    position: absolute;
+    margin: auto;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 500px;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration:none;
+    letter-spacing: 3px;
+    border-radius: 30px;
+}
+.contact:hover{
+    background-color: blue;
+}
+.whatsapp{
+    display: grid;
+    height: 184px;
+    width: 870px;
+    background-color:#25D366;
+    position: absolute;
+    margin: auto;
+    left: 0%;
+    right: 0%;
+    top: 100px;
+    bottom: 0;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration:none;
+    letter-spacing: 3px;
+    border-radius: 30px;
+}
+.whatsapp:hover{
+    background-color: green;
+}
+.instagram{
+    display: grid;
+    height: 184px;
+    width: 870px;
+    background: radial-gradient(
+        circle farthest-corner at 1% 75%,
+        rgba(255, 225, 125, 1) 0%,
+        rgba(255, 205, 105, 1) 12%,
+        rgba(250, 145, 55, 1) 25%,
+        rgba(235, 65, 65, 1) 40%,
+        transparent 75%
+      ),
+      linear-gradient(-15deg, rgba(35, 75, 215, 1) 40%, rgba(195, 60, 190, 1) 90%);
+    overflow: hidden;
+    animation: GradientBackground 5s ease infinite;
+    position: absolute;
+    margin: auto;
+    left: 0%;
+    right: 0%;
+    top: 700px;
+    bottom: 0;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration:none;
+    letter-spacing: 3px;
+    border-radius: 30px;
+}
+.instagram:hover{
+    background-color: rgba(35, 75, 215, 1);
+}
+footer{ 
+    width: 1080px;
+    height: 370px;
+    background-color: #FFBF00;
+}
+.sum1{
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 100px;
+    position: relative;
+    top: 1px;
+
+}
+.sum2{
+    text-align: center;
+    font-family: oregano;
+    font-size: 70px;
+    position: relative;
+    bottom: 20px;
+    font-weight: 300;
+}
+@media only screen and (max-width: 1080px) {
+  }
